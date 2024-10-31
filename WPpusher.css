@@ -1,0 +1,198 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f9f8;
+    margin: 0;
+    height: 600px;
+    border-bottom: 70px;
+    
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px;
+    padding-top: 6px;
+    padding-bottom: 5px;
+    padding-right: 50px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+img {
+    height: 30px;
+    width: auto;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 1px 5px ;
+    background-color: #dddddd;
+    border-radius: 5px;
+    color: #000;
+    font-size: 14px;
+    border: 1px solid rgb(48, 48, 85);
+    justify-content: center;
+    align-items: center;
+    
+}
+
+nav ul li a:hover {
+    background-color: #a32828;
+    border: 2px solid greenyellow;
+}
+
+.circle-one {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #be8a8a;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+}
+
+.container {
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    width: 800px;
+    border-bottom: 20px;
+    padding: 3px 3px 10px 30px;
+    height: 100vh;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    
+   
+    
+}
+
+.form-section {
+    padding: 30px;
+    width: 60%;
+}
+
+.form-section h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.form-set {
+    margin-bottom: 20px;
+}
+
+.form-pay label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #333;
+}
+
+.form-pay input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.btn {
+    background-color: #3ea56c;
+    color: white;
+    border: none;
+    padding: 10px;
+    padding-top: 20px;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #eae9f1;
+}
+
+.side-panel {
+    background-color: #0071d6;
+    color: white;
+    padding: 30px;
+    width: 40%;
+    text-align: left;
+}
+
+.side-panel h2 {
+    margin-top: 0;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.side-panel p {
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.side-panel .price {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.side-panel .features {
+    margin-top: 20px;
+    list-style-type: none;
+    padding: 0;
+}
+
+.side-panel .features li {
+    margin-bottom: 10px;
+}
+
+.testimonial {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh
+    
+}
+
+.form-pay input#card-expiry {
+    width: 40%;
+    display: inline-block;
+    margin-right: 4%;
+}
+
+.form-pay input#card-cvc {
+    width: 49%;
+    display: inline-block;
+    padding: 3px 3px 10px 10px ;
+    border-top: 12px ;
+}
